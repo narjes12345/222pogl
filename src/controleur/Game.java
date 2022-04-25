@@ -304,24 +304,30 @@ public class Game {
     }
 
     public void recupererArtefactStep() {
-        ZoneCliquable pos = getCurrentJoueur().getPosition();
+        Zone pos = getCurrentJoueur().getPosition();
 
-        if (pos instanceof Zone && ((Zone)pos).hasArtefact() ) {
-            if( currentJoueur.artefactCle(((Zone) pos).getArtefact())){
-            Zone zone = (Zone)pos;
-            System.err.println("récuperer artefact ok");
-            getCurrentJoueur().ajouteArtefact(zone.getArtefact());
-            zone.removeArtefact();
-            display.updateJoueur(getCurrentJoueur());
-            nextAction();
-            System.out.println("artefat recup");
-             }
-                JOptionPane.showMessageDialog(display, "VOUS DEVEZ POSSEDER LES 4 CLES DE L'ELEMENT : "+ ((Zone)pos).getArtefact().toString());
+        if (pos == null)
+            System.err.println("getPosition() returned null");
+
+        if (pos != null && pos.hasArtefact() ) {
+            if(currentJoueur.artefactCle(pos.getArtefact())){
+                System.err.println("récuperer artefact ok");
+                getCurrentJoueur().ajouteArtefact(pos.getArtefact());
+                //pos.removeArtefact();
+                display.updateJoueur(getCurrentJoueur());
+                nextAction();
+                System.out.println("artefat recup");
+                currentJoueur.ajouteArtefact(pos.getArtefact());
+                ile.removeAllArtefacts(pos.getArtefact());
+                refresh();
+                display.updateJoueur(currentJoueur);
+            } else {
+                JOptionPane.showMessageDialog(display, "VOUS DEVEZ POSSEDER LES 4 CLES DE L'ELEMENT : " + ((Zone) pos).getArtefact().toString());
                 System.err.println("vous n'avez pas les clés");
                 remainingActions++;
             }
-        if (pos instanceof Zone && !((Zone)pos).hasArtefact()){
-
+        }
+        else {
             JOptionPane.showMessageDialog(display, "LA ZONE OU VOUS TROUVEZ NE CONTIENT PAS D'ARTEFACTS !");
             System.err.println("Erreur: la case ne contient pas d'artefact");
             remainingActions++;
@@ -444,7 +450,7 @@ public class Game {
     }
 
     public boolean isWin() {
-        if (ile.getSpawnZone().getLocataires().size() != joueurs.size())
+        if (((Zone)ile.getSpawnZone()).getLocataires().size() != joueurs.size())
             return false;
 
         for (ZoneCliquable[] z : ile.getZones()) {

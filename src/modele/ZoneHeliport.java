@@ -88,7 +88,7 @@ public class ZoneHeliport extends Zone {
 
     @Override
     public ArrayList<Joueur> getLocataires() {
-        return null;
+        return locataires;
     }
     public void move(Joueur j){
         locataires.remove(j);

@@ -220,6 +220,11 @@ public class Ile {
             j.ajouteCle(clefs.get(0));
             j.ajouteCle(clefs.get(1));
 
+            //j.ajouteCle(Artefact.Eau);
+            //j.ajouteCle(Artefact.Eau);
+            //j.ajouteCle(Artefact.Eau);
+            //j.ajouteCle(Artefact.Eau);
+
             clefs.remove(0);
             clefs.remove(1);
 
@@ -337,6 +342,16 @@ public class Ile {
         for(int i = 0; i<zones.length; i++){
             for(int j = 0; j<zones.length; j++){
                 zones[i][j].setCo(i,j);
+            }
+        }
+    }
+
+    public void removeAllArtefacts(Artefact artefact) {
+        for (ZoneCliquable[] z : zones) {
+            for (ZoneCliquable zz : z) {
+                if (zz instanceof Zone && ((Zone)zz).getArtefact() == artefact) {
+                    ((Zone)zz).removeArtefact();
+                }
             }
         }
     }

@@ -56,16 +56,13 @@ public class Joueur {
 
 
     public boolean artefactCle (Artefact artefact) {
-       int nbCle= 0;
-        for(Artefact c : clefs){
-            if(c == artefact){
+        int nbCle = 0;
+        for (Artefact c : clefs) {
+            if (c == artefact) {
                 nbCle++;
-                }
             }
-        if(nbCle>4){
-            return true;
         }
-        return false;
+        return nbCle >= 4;
     }
     public void addArtefact(Artefact a){
         if(artefactCle(a)){
@@ -86,7 +83,7 @@ public class Joueur {
         return (artefacts.size()>0);
     }
      public void ajouteArtefact(Artefact a){
-
+        artefacts.add(a);
      }
     public String getInfo() {
         int eau = 0, feu = 0, air = 0, terre = 0;
