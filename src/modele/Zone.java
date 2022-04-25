@@ -309,79 +309,10 @@ public class Zone extends ZoneCliquable {
     public void setCo(int x, int y){
         this.co = new Coordonnees(x, y);
     }
-    public class ZoneHeliport extends ZoneCliquable {
-        private ArrayList<Joueur> locataires = new ArrayList<>();
-        private Etat etat;
-        public ZoneHeliport(int width, int height) {
-            super(width, height, Couleurs.CASE_HELIPORT);
-            etat = Etat.Normal;
-        }
 
-        @Override
-        public void draw() {
-            BufferedImage img = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
-            Graphics2D graphics = img.createGraphics();
-
-            graphics.setColor(color);
-            graphics.fillRect(0, 0, width, height);
-
-            // On dessine le "H" de l'héliport
-            graphics.setColor(Color.WHITE);
-            graphics.fillRect(width/3, height/3, width/10, height/2);
-            graphics.fillRect(2*(width/3), (height/3), width/10, height/2);
-            graphics.fillRect((2*(width/3)) - (width/4),  (height/4) + (height/3), width/4, height/10);
-
-            // On Dessine les joueurs
-            for (int i = 0; locataires != null && i < locataires.size(); i++) {
-                Color c = locataires.get(i).idInstance == 1 ? Color.BLUE
-                        : locataires.get(i).idInstance == 2 ? Color.orange
-                        : locataires.get(i).idInstance == 3 ? Color.RED
-                        : Color.GRAY;
-
-                graphics.setColor(c);
-
-                int x = (i == 0 || i == 2) ? 0 : width - Joueur.TailleJoueur;
-                int y = (i == 0 || i == 1) ? 0 : height - Joueur.TailleJoueur;
-
-                graphics.fillRect(x, y, Joueur.TailleJoueur, Joueur.TailleJoueur);
-            }
-
-            this.setIcon(new ImageIcon(img.getScaledInstance(width, height, Image.SCALE_DEFAULT)));
-            this.repaint();
-        }
-
-        @Override
-        public void addJoueur(Joueur j) {
-            if (!locataires.contains(j))
-                locataires.add(j);
-        }
-
-        @Override
-        public void removeJoueur(Joueur j) {
-            locataires.remove(j);
-        }
-
-        @Override
-        public void clicGauche() {
-
-        }
-
-        @Override
-        public void clicDroit() {
-
-        }
-
-        @Override
-        public void setEtat(Etat etat) {
-            this.etat = etat;
-        }
-
-        @Override
-        public ArrayList<Joueur> getLocataires() {
-            return null;
-        }
-        public void move(Joueur j){
-            locataires.remove(j);
-        }
+    public void setEtat(Etat etat) {
+        this.etat = etat;
     }
+
+
 }

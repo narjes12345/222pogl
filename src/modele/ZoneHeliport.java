@@ -81,7 +81,7 @@ public class ZoneHeliport extends Zone {
 
     }
 
-    @Override
+
     public void setEtat(Etat etat) {
         this.etat = etat;
     }

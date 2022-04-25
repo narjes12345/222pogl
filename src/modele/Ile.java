@@ -136,7 +136,7 @@ public class Ile {
 
         for (int[] i : useless) {
             zones[i[0]][i[1]] = new ZoneVide(tailleZone, tailleZone);
-            zones[i[0]][i[1]].setEtat(Etat.Submerger);
+            //zones[i[0]][i[1]].setEtat(Etat.Submerger);
         }
 
 
@@ -144,20 +144,21 @@ public class Ile {
         int[][] specCoo = getCoordonnes(9, taille-1, useless);
         heliport = new ZoneHeliport(tailleZone, tailleZone, this);
         zones[specCoo[0][0]][specCoo[1][0]] = heliport;
-        zones[specCoo[0][0]][specCoo[1][0]].setEtat(Etat.Normal);
+        heliport.setEtat(Etat.Normal);
         for (int i = 1; i < specCoo[0].length; i++) {
             Zone next = new Zone(tailleZone, tailleZone, this);
             next.addArtefact(Artefact.fromInteger(rand.nextInt(04)));
             zones[specCoo[0][i]][specCoo[1][i]] = next;
-            zones[specCoo[0][i]][specCoo[1][i]].setEtat(Etat.Normal);
+            next.setEtat(Etat.Normal);
         }
 
         // Puis on crée les autres zones
         for (int i = 0; i < zones.length; i++) {
             for (int j = 0; j < zones[i].length; j++) {
                 if (zones[i][j] == null) {
-                    zones[i][j] = new Zone(tailleZone, tailleZone, this);
-                    zones[i][j].setEtat(Etat.Normal);
+                    Zone next = new Zone(tailleZone, tailleZone, this);
+                    next.setEtat(Etat.Normal);
+                    zones[i][j] = next;
                 }
             }
         }

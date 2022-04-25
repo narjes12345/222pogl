@@ -66,9 +66,7 @@ public abstract class ZoneCliquable extends JLabel implements MouseListener {
         draw();
     }
 
-    public void setEtat(Etat etat) {
-        this.etat = etat;
-    }
+
 
     public Etat getEtat() {
         return etat;
