@@ -83,12 +83,6 @@ public class Ile {
             x[i] = rand.nextInt(max);
             y[i] = rand.nextInt(max);
 
-            if (containsCoordonnees(forbidenValues, x[i], y[i])) {
-                i--;
-                continue;
-            }
-
-
             for (int j = 0; j < i; j++) {
                 while (x[i] == x[j]) {
                     x[i] = rand.nextInt(max);
@@ -97,6 +91,11 @@ public class Ile {
                     y[i] = rand.nextInt(max);
                 }
             }
+
+            if (containsCoordonnees(forbidenValues, x[i], y[i])) {
+                i--;
+            }
+
         }
 
         return new int[][]{x, y};
@@ -141,7 +140,7 @@ public class Ile {
 
 
         // On crée ensuite les 8 zones spéciales et l'héliport
-        int[][] specCoo = getCoordonnes(9, taille-1, useless);
+        int[][] specCoo = getCoordonnes(9, taille, useless);
         heliport = new ZoneHeliport(tailleZone, tailleZone, this);
         zones[specCoo[0][0]][specCoo[1][0]] = heliport;
         heliport.setEtat(Etat.Normal);
