@@ -54,6 +54,10 @@ public class FrameGame extends JFrame {
         System.out.println("GAME OVER");
     }
 
+    public void gameWin() {
+        System.out.println("GAME WIN");
+    }
+
     public void updateJoueur(Joueur j) {
         boutons.updateDisplay(j);
     }

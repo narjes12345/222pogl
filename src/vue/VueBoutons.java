@@ -97,6 +97,9 @@ public class VueBoutons extends JPanel {
                 parent.gameOver();
             else
                 ile.update();
+
+            if (game.isWin())
+                parent.gameWin();
         }
     }
 
@@ -106,6 +109,9 @@ public class VueBoutons extends JPanel {
                 parent.gameOver();
             else
                 ile.update();
+
+            if (game.isWin())
+                parent.gameWin();
         }
     }
 
@@ -115,6 +121,9 @@ public class VueBoutons extends JPanel {
                 parent.gameOver();
             else
                 ile.update();
+
+            if (game.isWin())
+                parent.gameWin();
         }
     }
 
@@ -124,6 +133,9 @@ public class VueBoutons extends JPanel {
                 parent.gameOver();
             else
                 ile.update();
+
+            if (game.isWin())
+                parent.gameWin();
         }
     }
 
@@ -133,6 +145,9 @@ public class VueBoutons extends JPanel {
                 parent.gameOver();
             else
                 ile.update();
+
+            if (game.isWin())
+                parent.gameWin();
         }
     }
 }

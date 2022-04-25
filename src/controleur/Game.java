@@ -443,6 +443,20 @@ public class Game {
         return false;
     }
 
+    public boolean isWin() {
+        if (ile.getSpawnZone().getLocataires().size() != joueurs.size())
+            return false;
+
+        for (ZoneCliquable[] z : ile.getZones()) {
+            for (ZoneCliquable zz : z) {
+                if (zz instanceof Zone && ((Zone)zz).hasArtefact())
+                    return false;
+            }
+        }
+
+        return true;
+    }
+
 
 
     //
