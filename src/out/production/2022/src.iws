@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc8c4a8c-b85b-4192-ae25-2b46d66e875b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controleur/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/controleur/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/FrameTitre.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/FrameTitre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ZoneCliquable.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ZoneCliquable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modele/Ile.java" beforeDir="false" afterPath="$PROJECT_DIR$/modele/Ile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modele/Joueur.java" beforeDir="false" afterPath="$PROJECT_DIR$/modele/Joueur.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28DYgRZAJ6lcgwFPbyLtM12qDlP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Java IPO" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controleur.Main" />
+      <module name="2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controleur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc8c4a8c-b85b-4192-ae25-2b46d66e875b" name="Changes" comment="" />
+      <created>1650752738921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650752738921</updated>
+    </task>
+    <servers />
+  </component>
+</project>

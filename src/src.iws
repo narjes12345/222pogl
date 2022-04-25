@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc8c4a8c-b85b-4192-ae25-2b46d66e875b" name="Changes" comment="projet">
+      <change afterPath="$PROJECT_DIR$/vue/Trésors/CaliceC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/Trésors/CaliceG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/Trésors/CristalC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/Trésors/CristalG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/Trésors/PierreC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/Trésors/PierreG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/Trésors/StatueC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/Trésors/StatueG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/regles.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/Niveau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/PiecesofEight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/fond.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/fondinscription.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/niveauDesEaux1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/niveauDesEaux10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/niveauDesEaux2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/niveauDesEaux3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/niveauDesEaux4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/niveauDesEaux5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/niveauDesEaux6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/niveauDesEaux7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/niveauDesEaux8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/niveauDesEaux9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/planches.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/planchesQuitter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/planchesRegles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/resources/regles.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controleur/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/controleur/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/FrameTitre.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/FrameTitre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modele/Joueur.java" beforeDir="false" afterPath="$PROJECT_DIR$/modele/Joueur.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28DYgRZAJ6lcgwFPbyLtM12qDlP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gui" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\N\Downloads\2022\2022\src\gui" />
+      <recent name="C:\Users\N\Downloads\2022\2022\src\vue" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\N\Downloads\2022\2022\src\vue" />
+      <recent name="C:\Users\N\Downloads\2022\2022\src\modele" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controleur.Main" />
+      <module name="2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controleur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc8c4a8c-b85b-4192-ae25-2b46d66e875b" name="Changes" comment="" />
+      <created>1650752738921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650752738921</updated>
+    </task>
+    <task id="LOCAL-00001" summary="projet">
+      <created>1650823623219</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650823623219</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="projet" />
+    <option name="LAST_COMMIT_MESSAGE" value="projet" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/controleur/Game.java</url>
+          <line>220</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/controleur/Game.java</url>
+          <line>348</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/controleur/Game.java</url>
+          <line>327</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/controleur/Game.java</url>
+          <line>208</line>
+          <properties class="controleur.Game" method="assecherLastStep">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/controleur/Game.java</url>
+          <line>95</line>
+          <properties class="controleur.Game" method="nextAction">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
