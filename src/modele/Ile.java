@@ -147,7 +147,7 @@ public class Ile {
         heliport.setEtat(Etat.Normal);
         for (int i = 1; i < specCoo[0].length; i++) {
             Zone next = new Zone(tailleZone, tailleZone, this);
-            next.addArtefact(Artefact.fromInteger(rand.nextInt(04)));
+            next.addArtefact(Artefact.fromInteger(rand.nextInt(4)));
             zones[specCoo[0][i]][specCoo[1][i]] = next;
             next.setEtat(Etat.Normal);
         }
